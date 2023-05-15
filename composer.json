@@ -95,6 +95,9 @@
             "drupal/core": "-p2"
         },
         "patches": {
+            "hussainweb/drupal-api-client": {
+                "Remove deprecations": "patches/remove-deprecations-drupal-api-client.patch"
+            }
         },
         "installer-types": ["npm-asset", "bower-asset"],
         "installer-paths": {
